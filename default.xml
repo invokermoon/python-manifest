@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="https://github.com/invokermoon" name="teamforge" review=""/>
-    <remote fetch="https://github.com/invokermoon" name="origin"/>
+    <remote fetch="https://github.com" name="origin" />
+    <remote fetch="https://github.com" name="origin"/>
     <default revision="master" remote="origin" />
 
-    <project name="python-reptile" path="reptile" remote="origin" revision="master"/>
-    <project name="python-manifest.git" path="manifest" remote="origin" revision="master"/>
+    <project name="invokermoon/python-reptile" path="reptile" remote="origin" revision="origin/master"/>
+    <project name="invokermoon/python-manifest.git" path="manifest" remote="origin" revision="origin/master"/>
 
 </manifest>
